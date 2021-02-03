@@ -1,0 +1,160 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  header: {
+    width: '100%',
+    height: 150,
+    backgroundColor: '#c4ffc4',
+    // flexDirection: 'row',
+    // alignItems: 'center',
+    elevation: 10,
+  },
+  touchback: {
+    width: '12%',
+    margin: '2%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    // backgroundColor:'yellow'
+  },
+  imgback: {
+    width: '70%',
+    height: 30,
+    marginLeft: '10%',
+  },
+  txtback: {
+    fontSize: 20,
+    // marginTop: '1%',
+    marginLeft: '2%',
+    // marginRight:'2%',
+    fontWeight: 'bold',
+    color: 'black',
+  },
+  viewprofil: {
+    width: '100%',
+    height: 105,
+    //   backgroundColor:'yellow',
+    flexDirection: 'row',
+  },
+  viewrank: {
+    width: '70%',
+    height: 105,
+    // backgroundColor: 'yellow',
+    //   justifyContent:'center'
+    //   alignItems:'center'
+  },
+  txtnama: {
+    fontSize: 25,
+    fontWeight: 'bold',
+    color: '#007600',
+    marginTop: '8%',
+    marginLeft: '8%',
+  },
+  txtjuara: {
+    fontSize: 15,
+    marginLeft: '8%',
+    // marginTop: '5%',
+    color: '#009800',
+    fontWeight: 'bold',
+  },
+  viewfoto: {
+    // backgroundColor: 'red',
+    width: '28%',
+    height: 100,
+    borderRadius: 50,
+    alignSelf: 'center',
+    elevation: 10,
+  },
+  imgfoto: {
+    width: '100%',
+    height: 100,
+    borderRadius: 50,
+  },
+  viewuang: {
+    width: '100%',
+    height: 50,
+    backgroundColor: '#c4ffc4',
+    elevation: 10,
+    //   alignItems:'center',
+    justifyContent: 'center',
+  },
+  txtuang: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: 'green',
+    marginLeft: '7%',
+  },
+  viewall: {
+    width: '100%',
+    height: 60,
+    // backgroundColor: 'yellow',
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderBottomWidth: 0.5,
+  },
+  viewfotoall: {
+    // backgroundColor: 'green',
+    width: '14%',
+    height: 50,
+    borderRadius: 40,
+    elevation: 8,
+    marginLeft: '3%',
+  },
+  imgfotoall: {
+    width: '100%',
+    height: 50,
+    borderRadius: 30,
+  },
+  txtangka: {
+    fontSize: 13,
+    fontWeight: 'bold',
+  },
+  viewurut: {
+    // backgroundColor: 'red',
+    height: 60,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '10%',
+    borderRightWidth: 0.5,
+  },
+  viewname: {
+    // backgroundColor: 'red',
+    height: 60,
+    //   alignItems:'center',
+    justifyContent: 'center',
+    marginLeft: '3%',
+    width: '40%',
+    borderRightWidth: 0.5,
+  },
+  txtname: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  viewtotaluang: {
+    // backgroundColor: 'green',
+    width: '36%',
+    height: 60,
+    justifyContent: 'center',
+  },
+  txttotalharga: {
+    fontSize: 13,
+    fontWeight: 'bold',
+    color: 'green',
+    marginLeft: '8%',
+  },
+  imgloading: {
+    width: '100%',
+    height: 200,
+    alignSelf: 'center',
+    marginTop: '20%',
+  },
+  txttunggu: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    alignSelf: 'center',
+    marginTop: '20%',
+  },
+});
